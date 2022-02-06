@@ -14,7 +14,7 @@ To see an example, see our [samples](). INSERT SAMPLES
 
 ### Install
 
-`pip install progresssion`
+`pip install progression`
 
 ### Implement
 Progession has a full sample set to show the functionality of the package w/o the need of a recommender.

@@ -4,8 +4,8 @@
 ![versions](https://img.shields.io/pypi/pyversions/progression.svg)
 [![GitHub license](https://img.shields.io/github/license/mgancita/progression.svg)](https://github.com/mgancita/progression/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-e
-ADD MIT LICENSE badge
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 Create a progression of recommendations from a user-supplied recommender. For more info, see our [official docs](https://mgancita.github.io/progression)
 
@@ -21,7 +21,7 @@ To see an example, see our [samples](). INSERT SAMPLES
 
 ### Install
 
-`pip install progresssion`
+`pip install progression`
 
 ### Implement
 Progession has a full sample set to show the functionality of the package w/o the need of a recommender.
