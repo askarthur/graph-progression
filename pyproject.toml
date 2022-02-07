@@ -1,9 +1,9 @@
 [tool]
 
 [tool.poetry]
-name = "graph-progression"
+name = "graph_progression"
 version = "0.0.0"
-homepage = "https://github.com/askarthur/progression"
+homepage = "https://github.com/askarthur/graph-progression"
 description = "Create a progression of recommendations from a user-supplied recommender"
 authors = ["Marco Gancitano <marco.gancitano@askarthur.art>"]
 readme = "README.md"
@@ -16,7 +16,7 @@ classifiers=[
 ]
 include = [
     "LICENSE",
-    "progression/py.typed"
+    "graph_progression/py.typed"
 ]
 
 [tool.poetry.dependencies]
@@ -44,7 +44,7 @@ include-ids="yes"
 msg-template="{msg_id}:{line:3d},{column}: {obj}: {msg}"
 
 [tool.pytest.ini_options]
-addopts = "--cov=progression --cov-branch --cov-report term-missing  -vv --color=yes --cov-fail-under 100"
+addopts = "--cov=graph_progression --cov-branch --cov-report term-missing  -vv --color=yes --cov-fail-under 100"
 python_files = "tests.py test_*.py *_tests.py"
 
 [build-system]

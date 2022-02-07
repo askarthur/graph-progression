@@ -1,6 +1,6 @@
 """Test selectors."""
 
-from progression.selectors import first, last, randomness
+from graph_progression.selectors import first, last, randomness
 
 
 def test_first():

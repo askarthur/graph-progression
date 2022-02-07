@@ -25,9 +25,9 @@ jobs:
       - name: Unit & Coverage test with pytest
         run: poetry run pytest
       - name: Check style with flake8
-        run: poetry run flake8 progression/ tests/
+        run: poetry run flake8 graph_progression tests/
       - name: Check format with black
-        run: poetry run black --check progression/ tests/
+        run: poetry run black --check .
       - name: Check type hinting with mypy
         run: poetry run mypy
 

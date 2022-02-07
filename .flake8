@@ -16,5 +16,5 @@ exclude =
     .eggs
 max-complexity = 10
 import-order-style = google
-application-import-names = progression, tests
+application-import-names = graph_progression, tests
 format = ${cyan}%(path)s${reset}:${yellow_bold}%(row)d${reset}:${green_bold}%(col)d${reset}: ${red_bold}%(code)s${reset} %(text)s

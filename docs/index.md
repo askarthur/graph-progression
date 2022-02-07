@@ -14,13 +14,13 @@ To see an example, see our [samples](). INSERT SAMPLES
 
 ### Install
 
-`pip install progression`
+`pip install graph_progression`
 
 ### Implement
 Progession has a full sample set to show the functionality of the package w/o the need of a recommender.
 
 ```python
-from progression import DFSProgressor, random_walk
+from graph_progression import DFSProgressor, random_walk
 
 progressor = DFSProgressor()
 progressor.create_progression(0, random_walk, progression_length=3)  

@@ -5,8 +5,8 @@ site_author: AskArthur ArtData LLC.
 site_description: Create a progression of recommendations from a user-supplied recommender
 
 # Repository information
-repo_name: askarthur/progression
-repo_url: https://github.com/askarthur/progression
+repo_name: askarthur/graph-progression
+repo_url: https://github.com/askarthur/graph-progression
 edit_uri: ""
 
 # Copyright

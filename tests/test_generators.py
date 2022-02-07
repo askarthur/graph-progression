@@ -1,6 +1,6 @@
 """Test generators."""
 
-from progression.generators import random_walk
+from graph_progression.generators import random_walk
 
 
 def test_random_walk():

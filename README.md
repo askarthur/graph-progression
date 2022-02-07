@@ -1,12 +1,12 @@
 # Progression
 
-[![PyPI version](https://badge.fury.io/py/graph-progression.svg)](https://badge.fury.io/py/progression)
+[![PyPI version](https://badge.fury.io/py/graph-progression.svg)](https://badge.fury.io/py/graph-progression)
 ![versions](https://img.shields.io/pypi/pyversions/graph-progression.svg)
-[![GitHub license](https://img.shields.io/github/license/askarthur/progression.svg)](https://github.com/askarthur/progression/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/askarthur/graph-progression.svg)](https://github.com/askarthur/graph-progression/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 
-Create a progression of recommendations from a user-supplied recommender. For more info, see our [official docs](https://askarthur.github.io/progression)
+Create a progression of recommendations from a user-supplied recommender. For more info, see our [official docs](https://askarthur.github.io/graph-progression)
 
 ## General
 
@@ -26,7 +26,7 @@ To see an example, see our [samples](). INSERT SAMPLES
 Progession has a full sample set to show the functionality of the package w/o the need of a recommender.
 
 ```python
-from progression import DFSProgressor, random_walk
+from graph_progression import DFSProgressor, random_walk
 
 progressor = DFSProgressor()
 progressor.create_progression(0, random_walk, progression_length=3)  

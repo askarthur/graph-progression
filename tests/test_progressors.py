@@ -1,12 +1,12 @@
-"""Test module for progression."""
+"""Test module for progressors."""
 
 from typing import Any, List
 
 import pytest
 
-from progression.generators import random_walk
-from progression.progressors import DFSProgressor
-from progression.selectors import last
+from graph_progression.generators import random_walk
+from graph_progression.progressors import DFSProgressor
+from graph_progression.selectors import last
 
 
 def mock_no_recommendations_to_start(*args, **kwargs) -> List[Any]:
@@ -35,13 +35,13 @@ class TestDFSProgressor:
         self.progressor = DFSProgressor()
 
     def test_create_progession(self):
-        """Test progression."""
+        """Test create_progression."""
         progression = self.progressor.create_progression(0, random_walk)
         assert len(progression) == 10
         assert len(list(set(progression))) == 10
 
     def test_create_progression_w_backtrack(self):
-        """Test progession w/ backtracking."""
+        """Test create_progression w/ backtracking."""
         progession = self.progressor.create_progression(0, mock_step)
         assert progession == [0, 1, 2, 3, 4, 6, 7, 8, 9, 10]
         assert list(self.progressor.graph.keys()) == list(range(10))
