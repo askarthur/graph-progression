@@ -1,10 +1,6 @@
 # Progression
 
-[![PyPI version](https://badge.fury.io/py/graph-progression.svg)](https://badge.fury.io/py/graph-progression)
-![versions](https://img.shields.io/pypi/pyversions/graph-progression.svg)
-[![GitHub license](https://img.shields.io/github/license/askarthur/graph-progression.svg)](https://github.com/askarthur/graph-progression/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
 
 Create a progression of recommendations from a user-supplied recommender. For more info, see our [official docs](https://askarthur.github.io/graph-progression)
 
