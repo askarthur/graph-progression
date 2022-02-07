@@ -1,7 +1,7 @@
 # Progression
 
-[![PyPI version](https://badge.fury.io/py/progression.svg)](https://badge.fury.io/py/progression)
-![versions](https://img.shields.io/pypi/pyversions/progression.svg)
+[![PyPI version](https://badge.fury.io/py/graph-progression.svg)](https://badge.fury.io/py/progression)
+![versions](https://img.shields.io/pypi/pyversions/graph-progression.svg)
 [![GitHub license](https://img.shields.io/github/license/askarthur/progression.svg)](https://github.com/askarthur/progression/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
@@ -20,7 +20,7 @@ To see an example, see our [samples](). INSERT SAMPLES
 
 ### Install
 
-`pip install progression`
+`pip install graph-progression`
 
 ### Implement
 Progession has a full sample set to show the functionality of the package w/o the need of a recommender.
