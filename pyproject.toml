@@ -3,7 +3,7 @@
 [tool.poetry]
 name = "progression"
 version = "0.0.0"
-homepage = "https://github.com/mgancita/progression"
+homepage = "https://github.com/askarthur/progression"
 description = "Create a progression of recommendations from a user-supplied recommender"
 authors = ["Marco Gancitano <marco.gancitano@askarthur.art>"]
 readme = "README.md"

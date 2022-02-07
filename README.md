@@ -2,11 +2,11 @@
 
 [![PyPI version](https://badge.fury.io/py/progression.svg)](https://badge.fury.io/py/progression)
 ![versions](https://img.shields.io/pypi/pyversions/progression.svg)
-[![GitHub license](https://img.shields.io/github/license/askarthur/progression.svg)](https://github.com/mgancita/progression/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/askarthur/progression.svg)](https://github.com/askarthur/progression/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 
-Create a progression of recommendations from a user-supplied recommender. For more info, see our [official docs](https://mgancita.github.io/progression)
+Create a progression of recommendations from a user-supplied recommender. For more info, see our [official docs](https://askarthur.github.io/progression)
 
 ## General
 

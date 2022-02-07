@@ -5,8 +5,8 @@ site_author: AskArthur ArtData LLC.
 site_description: Create a progression of recommendations from a user-supplied recommender
 
 # Repository information
-repo_name: mgancita/progression
-repo_url: https://github.com/mgancita/progression
+repo_name: askarthur/progression
+repo_url: https://github.com/askarthur/progression
 edit_uri: ""
 
 # Copyright
@@ -26,8 +26,8 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/mgancita
-      name: mgancita on GitHub
+      link: https://github.com/askarthur
+      name: askarthur on GitHub
 
 # Page tree
 nav:
