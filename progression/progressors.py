@@ -64,7 +64,7 @@ class DFSProgressor:
                 options = self._graph[current]
             else:
                 options = step_generator(current)
-                for _filter in post_generation_filters:
+                for _filter in post_generation_filters:  # type: ignore
                     options = _filter(options)
                 self._graph[current] = options
 
@@ -79,7 +79,7 @@ class DFSProgressor:
                 return _progress(progression[:-1])
 
             # Select next step
-            step = step_selection(non_visited_options)
+            step = step_selection(non_visited_options)  # type: ignore
             progression.append(step)
 
             # If progression his length, end
@@ -90,7 +90,7 @@ class DFSProgressor:
             return _progress(progression)
 
         # Starting call
-        return _progress([starter])
+        return _progress([starter])  # type: ignore
 
     @property
     def graph(self) -> Dict[Any, Any]:
