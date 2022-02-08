@@ -10,7 +10,7 @@ This package was made for a specific use-case but should work with any *content-
 
 The initial use case was to create a visual progression of artwork recommendations. This was done to create interesting collections of fine artworks powered by our computer vision recommendation engine.
 
-To see an example, see our [samples](). INSERT SAMPLES
+To see an example, see our [samples](docs/samples/README.md).
 
 ## Quickstart
 
