@@ -14,7 +14,7 @@ def mock_no_recommendations_to_start(*args, **kwargs) -> List[Any]:
     return []
 
 
-def mock_filter(options: List[Any]) -> List[Any]:
+def mock_filter(current: Any, options: List[Any]) -> List[Any]:
     """Mock filter."""
     return options[:-1]
 

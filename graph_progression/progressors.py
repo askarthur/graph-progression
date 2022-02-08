@@ -65,7 +65,7 @@ class DFSProgressor:
             else:
                 options = step_generator(current)
                 for _filter in post_generation_filters:  # type: ignore
-                    options = _filter(options)
+                    options = _filter(current, options)
                 self._graph[current] = options
 
             # Remove options we've already explored
