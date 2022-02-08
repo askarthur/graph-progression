@@ -33,18 +33,18 @@ progressor.graph
 # }
 ```
 
-As you can see, progession generates "recommendations" at each step, uses them to populate a graph (for memoization), and then continues on. Not shown here, but it also has the intelligence to backtrack using the graph if it ends a recommendation (node) with no recommedations (edges).
+As you can see, graph_progession generates "recommendations" at each step, uses them to populate a graph (for memoization), and then continues on. Not shown here, but it also has the intelligence to backtrack using the graph if it arrives at a recommendation (node) with no recommedations (edges).
 
 ## Features
 
 - Recommendation progression via sequential depth-first search
 - Memoization
 - Flexible API that can take as inputs:
-  - Starter graph
-  - Recommendation algorithm
-  - Post recommendation filters
-  - Selection algorithm
-  - Progession length
+    - Starter graph
+    - Recommendation algorithm
+    - Post recommendation filters
+    - Selection algorithm
+    - Progession length
 
 ## Credits
 
