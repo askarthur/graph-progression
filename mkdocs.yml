@@ -32,3 +32,4 @@ extra:
 # Page tree
 nav:
   - Home: index.md
+  - Samples: samples/README.md
