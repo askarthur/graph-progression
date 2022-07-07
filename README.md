@@ -51,3 +51,7 @@ As you can see, progession generates "recommendations" at each step, uses them t
 ## Credits
 
 This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [`mgancita/cookiecutter-pypackage`](https://mgancita.github.io/cookiecutter-pypackage/) project template.
+
+## Deployment
+
+On commit to main, the `pypi_publish.md` action is run by GitHub which builds and publishes this package to PyPI.
